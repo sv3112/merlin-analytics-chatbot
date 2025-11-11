@@ -1,9 +1,11 @@
-setuptools>=68.0.0
-wheel
+cat > requirements.txt << 'EOF'
 flask==3.0.0
 flask-cors==4.0.0
 groq==0.4.1
 sentence-transformers==2.7.0
 numpy==1.26.4
 gunicorn==21.2.0
-torch==2.1.2
+torch==2.5.0
+transformers==4.40.0
+huggingface-hub==0.23.0
+EOF
